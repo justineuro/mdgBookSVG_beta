@@ -1,0 +1,46 @@
+# Create folder, put bash files in folder: mdg2mid-svg.sh, mdg2minRndN-svg.sh, entriesSVG.sh
+# Generate nnn MDGs
+
+	./mdg2midRndN-svg.sh nnn
+
+# Generate a list of SVGs created
+
+	ls --color=never K516f*.svg > svgList.txt
+
+# Create a list of figure entries for LaTeX file; *.pdf_tex files are also created using inkscape
+
+	./entriesSVG.sh
+
+# Change the font sizes of titles, subtitles, repeat signs
+
+	sed -i 's/\\smash{K\.516/\\smash{\\footnotesize \\tt K\.516/g' *.pdf_tex
+	sed -i 's/\\smash{Perm/\\smash{\\footnotesize \\tt Perm/g' *.pdf_tex
+	sed -i 's/\\smash{1}/\\smash{\\footnotesize 1}/g' *.pdf_tex
+	sed -i 's/\\smash{2}/\\smash{\\footnotesize 2}/g' *.pdf_tex
+	sed -i 's/\\smash{tr}/\\smash{\\em tr}/g' *.pdf_tex
+	sed -i 's/\\smash{= 111}/\\smash{\\footnotesize = 111}/g' *.pdf_tex
+
+# Move svgList.txt.output to svgList.tex
+
+	cp svgList.txt.output svgList.tex
+
+# Remove trailing last -nnnn(n) from each svgList.tex entry 
+
+	sed -i.OLD 's/001}/}/g' svgList.tex
+	sed -i.OLD 's/001.mid}/.mid}/g' svgList.tex
+
+# Create the K516f SVGs; aslo *pdf_tex files using inkscape
+# * edit abcmdg-k516f-bymeas001.pdf_tex to add escapes ("\") before "%" and "_" for URL; "\em" before "tr" 
+	
+	abcm2ps -v -O= abcmdg-k516f-bymeas.abc
+	inkscape -D -z --file=abcmdg-k516f-bymeas001.svg --export-pdf=abcmdg-k516f-bymeas001.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f-bymeas002.svg --export-pdf=abcmdg-k516f-bymeas002.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f-bymeas003.svg --export-pdf=abcmdg-k516f-bymeas003.pdf --export-latex
+	inkscape -D -z --file=abcmdg-k516f-bymeas004.svg --export-pdf=abcmdg-k516f-bymeas004.pdf --export-latex
+	
+	# manualy edit abcmdg-k516f-bymeas001.pdf_tex to add \"{} to umlaut u, the escapes ("\"); and "\url{-}" to URL
+	sed -i.OLD 's/\\smash{tr}/\\smash{\\em tr}/g' abcmdg-k516f-bymeas00*.pdf_tex 
+
+# Generate the PDF
+
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG1.tex
