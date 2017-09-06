@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.9)  6 SEP 2017 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.7.9)  6 SEP 2017 14:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -485,13 +485,13 @@ Package pdftex.def Info: abcmdg-k516f-bymeas004.pdf used on input line 52.
 (pdftex.def)             Requested size: 458.01398pt x 545.59286pt.
 ) [12 <./abcmdg-k516f-bymeas004.pdf>]
 
-LaTeX Warning: Command \textcopyright invalid in math mode on input line 235.
+LaTeX Warning: Command \textcopyright invalid in math mode on input line 234.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 235.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 234.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 235.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 234.
 
 [13] (./svgList.tex
 
@@ -3528,7 +3528,7 @@ Package pdftex.def Info: K516f-9-9-5-2-6-9-3-6-5-3-6-2-8-6-5-6001.pdf used on i
 nput line 52.
 (pdftex.def)             Requested size: 469.75499pt x 183.90681pt.
 ))
-Overfull \hbox (18.96576pt too wide) in paragraph at lines 268--269
+Overfull \hbox (18.96576pt too wide) in paragraph at lines 267--268
 \OT1/cmr/m/n/10 This work by Iam The Au-thor, based on work of J.L.A. Uro at []
 []$\OT1/cmtt/m/n/10 https : / / github . com / justineuro / mdgBookSVGv1$[][]\O
 T1/cmr/m/n/10 ,
@@ -3539,22 +3539,22 @@ T1/cmr/m/n/10 ,
 \openout5 = `mdgBookSVGv1.brf'.
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
  [97 <./K516f-9-9-12-6-10-9-8-12-6-10-7-4-5-2-7-12001.pdf> <./K516f-9-9-5-2-6-9
 -3-6-5-3-6-2-8-6-5-6001.pdf
 
 pdfTeX warning: pdflatex (file ./K516f-9-9-5-2-6-9-3-6-5-3-6-2-8-6-5-6001.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
  (./mdgBookSVGv1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
 Package rerunfilecheck Info: File `mdgBookSVGv1.out' has not changed.
 (rerunfilecheck)             Checksum: 360C918FCB665C15E958E89220F529C3;23011.
 Package rerunfilecheck Info: File `mdgBookSVGv1.brf' has not changed.
 (rerunfilecheck)             Checksum: 654CF3E022BEA82ED1C656953D726C3C;91.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  )
 (\end occurred inside a group at level 1)
 
@@ -3585,7 +3585,7 @@ usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on mdgBookSVGv1.pdf (98 pages, 5600994 bytes).
+Output written on mdgBookSVGv1.pdf (98 pages, 5600982 bytes).
 PDF statistics:
  2852 PDF objects out of 2984 (max. 8388607)
  2435 compressed objects within 25 object streams
