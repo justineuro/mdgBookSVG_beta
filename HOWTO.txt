@@ -38,8 +38,13 @@
 	inkscape -D -z --file=abcmdg-k516f-bymeas003.svg --export-pdf=abcmdg-k516f-bymeas003.pdf --export-latex
 	inkscape -D -z --file=abcmdg-k516f-bymeas004.svg --export-pdf=abcmdg-k516f-bymeas004.pdf --export-latex
 	
-	# manualy edit abcmdg-k516f-bymeas001.pdf_tex to add \"{} to umlaut u, the escapes ("\"); and "\url{-}" to URL
+	# manualy edit abcmdg-k516f-bymeas001.pdf_tex to add \"{} to umlaut u, the escapes ("\") to "_" and "%"; 
+	# and "\url{-}" to URL; also
+
 	sed -i.OLD 's/\\smash{tr}/\\smash{\\em tr}/g' abcmdg-k516f-bymeas00*.pdf_tex 
+
+# For each entry, add a \nopagebreak[4] between SVG image and MIDI audio; Adjust the font-size for MIDI item
+# Can be incorporated into the entriesSVG.sh (TODO)
 
 # Generate the PDF
 
