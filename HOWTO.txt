@@ -48,4 +48,4 @@
 
 # Generate the PDF
 
-	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVG1.tex
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGv1.tex
