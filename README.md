@@ -27,12 +27,12 @@ My sincerest gratitude to Chris Walshaw et al. for the [ABC music notation](http
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://github.com/justineuro/mdgBookSVGv1">
-    <span property="dct:title">Justine Leon A. Uro</span></a>
+     href="https://github.com/justineuro/mdgBookSVG_beta">
+    <span property="dct:title"><a href=mailto:justinneuro>Justine Leon A. Uro</a></span></a>
   has waived all copyright and related or neighboring rights to
-  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVGv1">mdgBookSVGv1</a></span>.
+  <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVG_beta">mdgBookSVGv_beta</a></span>.
 This work is published from:
 <span property="vcard:Country" datatype="dct:ISO3166"
-      content="PH" about="https://github.com/justineuro/mdgBookSVGv1">
+      content="PH" about="https://github.com/justineuro/mdgBookSVG_beta">
   Philippines</span>.
 </p>
