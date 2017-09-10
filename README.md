@@ -29,8 +29,8 @@ Project](http://abcplus.sourceforge.net/) and the [abcmidi resources](http://abc
   <br />
   To the extent possible under law,
   <a rel="dct:publisher"
-     href="https://github.com/justineuro/mdgBookSVG_beta">
-    <span property="dct:title"><a href=mailto:justinneuro@gmail.com>Justine Leon A. Uro</a></span></a>
+     href="https://github.com/justineuro">
+    <span property="dct:title">Justine Leon A. Uro</span></a>
   has waived all copyright and related or neighboring rights to
   <span property="dct:title"><a href="https://github.com/justineuro/mdgBookSVG_beta">mdgBookSVG_beta</a></span>.
 This work is published from:
