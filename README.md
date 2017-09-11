@@ -1,4 +1,4 @@
-## mdgBookSVGv1
+## mdgBookSVG_beta
 
 [... **Under construction**...]
 
