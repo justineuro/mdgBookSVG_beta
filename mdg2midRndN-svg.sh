@@ -23,12 +23,12 @@
 #----------------------------------------------------------------------------------
 # define the function genS() that randomly chooses an integer from 1 to 6, inclusive,
 #----------------------------------------------------------------------------------
-genS() { # RANDOM randomly generates an integer from 0 to 32767 (max -le 32766)
+genS() { # RANDOM randomly generates an integer from 0 to 32767 (max -le 32765)
 	rnd=32767
-	until [ $rnd -lt 32767 ]
+	until [ $rnd -lt 32766 ]
 	do
 		rnd=$[RANDOM]
-		if [ $rnd -lt 32758 ]; then echo $[rnd%6+1]; fi
+		if [ $rnd -lt 32766 ]; then echo $[rnd%6+1]; fi
 	done
 }
 
